@@ -8,7 +8,6 @@ const App = ()=>{
   return(
     <div className="w-full h-dvh bg-[#020202] px-1.5 md:px-0">
     <Navbar/>
-    <Home/>
     </div>
   )
 }
