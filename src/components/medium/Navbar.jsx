@@ -5,6 +5,7 @@ import darkLogo from "../../assets/images/dark_logo.png";
 import { IoCloseOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import NavLink from "../min/NavLink";
+import Picture from "../min/Picture";
 
 const Navbar = () => {
   const [open, setOpen] = useState(true);
@@ -39,7 +40,7 @@ const Navbar = () => {
                 onClick={() => setOpen(!open)}
                 className="close flex justify-center items-center cursor-pointer"
               >
-                <IoCloseOutline className="text-4xl text-[#010101]" />
+                <IoCloseOutline className="text-5xl text-[#808082] hover:text-[#010101] hover:rotate-90 transition-all duration-450" />
               </div>
             </nav>
             <div className="links flex gap-x-12.5">
@@ -53,6 +54,9 @@ const Navbar = () => {
                 <NavLink to="/portfolio" text="blog"/>
                 <NavLink to="/service" text="Contact"/>
                 </div>
+            </div>
+            <div className="recent-works mt-6 pt-5 flex justify-between items-center">
+                <Picture src={} alt="" className=""/>
             </div>
           </div>
         )}
