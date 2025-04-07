@@ -56,7 +56,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="recent-works mt-6 pt-5 flex justify-between items-center">
-                <Picture src={} alt="" className=""/>
+                <Picture src="" alt="" className=""/>
             </div>
           </div>
         )}
