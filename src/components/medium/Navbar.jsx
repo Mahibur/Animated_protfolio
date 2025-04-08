@@ -11,7 +11,7 @@ import dropdown_2 from "../../assets/images/dropdown_2.png"
 import dropdown_3 from "../../assets/images/dropdown_3.png"
 
 const Navbar = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   return (
     <nav className="pt-10 fixed w-full top-0 left-0 z-100 px-1.5">
       <Container className="flex justify-between items-center relative">
