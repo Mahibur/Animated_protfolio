@@ -5,7 +5,10 @@ import darkLogo from "../../assets/images/dark_logo.png";
 import { IoCloseOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import NavLink from "../min/NavLink";
-import Picture from "../min/Picture";
+import RecentProject from "./RecentProject";
+import dropdown_1 from "../../assets/images/dropdown_1.png"
+import dropdown_2 from "../../assets/images/dropdown_2.png"
+import dropdown_3 from "../../assets/images/dropdown_3.png"
 
 const Navbar = () => {
   const [open, setOpen] = useState(true);
@@ -14,7 +17,7 @@ const Navbar = () => {
       <Container className="flex justify-between items-center relative">
         <Link to="/" className="logo">
           <picture>
-            <img src={logo} alt="logo.png" className="w-13 md:w-17" />
+            <img src={logo} alt="logo.png" className="h-12" />
           </picture>
         </Link>
         <div
@@ -24,15 +27,15 @@ const Navbar = () => {
           <div className="w-12 md:w-17.5 h-[1.5px] bg-white group-hover:bg-black transition-all duration-500"></div>
           <div className="w-6 md:w-11 h-[1.5px] group-hover:w-12 md:group-hover:w-17.5 bg-white group-hover:bg-black transition-all duration-500"></div>
         </div>
-        {open && (
-          <div className="main bg-[#EBEBEB] p-5 rounded-lg w-full absolute top-0 left-0 z-1 backdrop-blur-[20px]">
+        {
+          <div className={`main transition-all duration-750 bg-[#EBEBEB] p-5 rounded-lg w-full absolute top-0 left-0 z-1 backdrop-blur-[20px] ${open? "trnaslate-y-0": "-translate-y-350"}`}>
             <nav className="flex justify-between items-center pb-9">
-              <Link className="logo">
+              <Link to="/" className="logo">
                 <picture>
                   <img
                     src={darkLogo}
                     alt="logo.png"
-                    className="w-5.5 md:w-10.5"
+                    className="h-12"
                   />
                 </picture>
               </Link>
@@ -48,18 +51,20 @@ const Navbar = () => {
                     <NavLink to="/" text="Home"/>
                     <NavLink to="/about" text="About me"/>
                     <NavLink to="/portfolio" text="Portfolio"/>
-                    <NavLink to="/service" text="Services"/>
+                    <NavLink to="/services" text="Services"/>
                 </div>
                 <div className="two flex flex-col gap-y-2">
-                <NavLink to="/portfolio" text="blog"/>
-                <NavLink to="/service" text="Contact"/>
+                <NavLink to="/blog" text="blog"/>
+                <NavLink to="/contact" text="Contact"/>
                 </div>
             </div>
-            <div className="recent-works mt-6 pt-5 flex justify-between items-center">
-                <Picture src="" alt="" className=""/>
+            <div className="recent-works mt-6 pt-5 hidden md:flex flex-wrap justify-center lg:justify-between items-center">
+                <RecentProject src={dropdown_1} alt="dropdown_1" num="/01" title="Business Consultant website"/>
+                <RecentProject src={dropdown_2} alt="dropdown_2" num="/02" title="Portfolio website"/>
+                <RecentProject src={dropdown_3} alt="dropdown_3" num="/03" title="Corporate UI/UX"/>
             </div>
           </div>
-        )}
+        }
       </Container>
     </nav>
   );
