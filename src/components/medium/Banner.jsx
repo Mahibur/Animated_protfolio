@@ -20,7 +20,7 @@ const Banner = () => {
           </h2>
         </div>
       </Container>
-      <div className="gradient absolute left-0 bottom-0 w-full h-30 bg-linear-[0deg,#000000,rgba(0,0,0,0)_104%]"></div>
+      <div className="gradient absolute left-0 bottom-0 w-full h-30 bg-linear-[0deg,red,rgba(0,0,0,0)_104%]"></div>
     </div>
   );
 };
