@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap');
+@import "tailwindcss";
+
+
+
+
+@font-face {
+  font-family: Thunder;
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/Thunder-LC.otf") format("opentype");
+}
+@font-face {
+  font-family: Segoe;
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/Segoe\ UI.ttf") format("truetype");
+}
+@theme {
+  /* custom-fonts */
+    --font-thunder: "Thunder", sans-serif;
+    --font-segoe: "Segoe UI", sans-serif;
+    --font-inter: "Inter", sans-serif;
+    --font-sora: "Sora", sans-serif;
+  /*custom-colors  */
+    --color-body: #777777;
+    --color-h1: #A1A1A1;
+    --color-bg: #020202;
+
+}
+/* h1,h2,h3,h4,h5,h6,span,p{
+  color: white;
+} */
+  
+
+
+
+  
