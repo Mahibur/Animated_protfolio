@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Loading = () => {
-    const [close, setClose] =useState(false)
+    const [close, setClose] =useState(true)
   return (
     <div onClick={()=>setClose(!close)} className={`absolute top-0 left-0 w-full h-dvh bg-[#010102] justify-center items-center z-[200]
     ${close? "flex":"hidden"}`}>

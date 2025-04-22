@@ -9,10 +9,10 @@
   font-family: Thunder;
   font-style: normal;
   font-weight: 400;
-  src: url("assets/fonts/Thunder-LC.otf") format("opentype");
+  src: url("assets/fonts/Thunder-BoldLC.ttf") format("truetype");
 }
 @font-face {
-  font-family: Segoe;
+  font-family: Segoe UI;
   font-style: normal;
   font-weight: 400;
   src: url("assets/fonts/Segoe\ UI.ttf") format("truetype");
