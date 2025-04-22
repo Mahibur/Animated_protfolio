@@ -15,7 +15,7 @@ const Banner = () => {
           <h1 className="font-thunder text-center font-bold w-full text-[68px] sm:text-[150px] md:text-[180px] lg:text-[250px] xl:text-[374px] leading-none tracking-[18.7px] uppercase bg-linear-[133deg,#F1F1F1_11%,#AEAEAE_55%,#A1A1A1_100%] text-transparent bg-clip-text pb-7.5">
             Rakibkhan
           </h1>
-          <h2 className="font-thunder text-center font-medium text-7xl tracking-[96.47px] uppercase bg-linear-[133deg,#EBEBEB,#A1A1A1_82%] text-transparent bg-clip-text absolute top-[77%] left-0">
+          <h2 className="font-thunder text-center text-7xl tracking-[96.47px] uppercase bg-linear-[133deg,#EBEBEB,#A1A1A1_82%] text-transparent bg-clip-text absolute top-[77%] left-0">
             UIUXDesigner
           </h2>
         </div>
