@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../min/Container";
+
 import icon from "../../assets/images/text_icon.png";
 
 const TextSection = () => {
@@ -11,7 +12,9 @@ const TextSection = () => {
         <span className="text-[#515151]">
           and web platforms across a wide range of industries.
         </span>
-        <img className="absolute top-[6%] left-[22%]" src={icon} alt="" />
+        <div className="absolute top-[6%] left-[22%] w-20.5 h-12.5 bg-h1 rounded-[100px] flex items-center pl-2.5">
+          <img className="animate-[spin_3s_linear_infinite]" src={icon} alt="" />
+        </div>
       </h1>
     </Container>
   );
