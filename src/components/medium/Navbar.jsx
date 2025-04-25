@@ -58,7 +58,7 @@ const Navbar = () => {
                 <NavLink to="/contact" text="Contact"/>
                 </div>
             </div>
-            <div className="recent-works mt-6 pt-5 hidden lg:flex lg:gap-x-5 flex-wrap lg:justify-center xl:justify-between items-center">
+            <div className="recent-works mt-6 pt-5 hidden lg:flex lg:gap-x-5 flex-wrap lg:justify-center 2xl:justify-between items-center">
                 <RecentProject src={dropdown_1} alt="dropdown_1" num="/01" title="Business Consultant website"/>
                 <RecentProject src={dropdown_2} alt="dropdown_2" num="/02" title="Portfolio website"/>
                 <RecentProject src={dropdown_3} alt="dropdown_3" num="/03" title="Corporate UI/UX"/>

@@ -11,7 +11,7 @@ const ServiceHover =({title,context ,src})=>{
                 <p className="font-segoe text-sm leading-6 text-[#999999] max-w-[436px]">{context}</p>
             </div>
             <div className="img">
-                <img src={src} alt="" />
+                <img className="rounded-sm" src={src} alt="" />
             </div>
         </div>
         </div>
