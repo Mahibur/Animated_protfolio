@@ -5,6 +5,7 @@ import Service from "../medium/Service"
 import Work from "../medium/Work"
 import AboutText from "../medium/AboutText"
 import Introduction from "../medium/Profile"
+import Consider from "../medium/Consider"
 
 const Home = ()=>{
     return(
@@ -15,6 +16,7 @@ const Home = ()=>{
         <Work/>
         <AboutText/>
         <Introduction/>
+        <Consider/>
         </>
     )
 }

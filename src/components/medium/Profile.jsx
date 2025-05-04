@@ -6,12 +6,12 @@ import { MdOutlineFileDownload } from "react-icons/md";
 const Profile = () => {
   return (
     <div className="intro bg-[#D6D6D6] py-32 mt-40">
-      <Container className="flex flex-wrap gap-x-25 items-center">
+      <Container className="flex flex-wrap gap-x-25 items-start">
         <div className="text">
           <p className="font-segoe text-base tracking-[0.8px] text-bg uppercase">
             /&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Profile
           </p>
-          <div className="content max-w-[690px] mt-81">
+          <div className="content max-w-[690px] mt-60">
             <h3 className="font-segoe text-5xl tracking-[0.1px] leading-[57.6px] text-bg text-right italic w-full">
               Hey’ This is Rakib Khan
             </h3>
@@ -23,8 +23,8 @@ const Profile = () => {
             </h4>
           </div>
         </div>
-        <div className="img_text flex flex-col items-center">
-          <img className="w-114" src={profile} alt="profile.png" />
+        <div className="img_text flex flex-col">
+          <img className="w-101" src={profile} alt="profile.png" />
         <div className="img-content">
         <p className="max-w-[554px] font-segoe text-lg leading-7 tracking-[0.1px] text-bg pb-10">
             As a passionate UI/UX designer with a strong background in crafting
