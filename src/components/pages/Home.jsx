@@ -9,8 +9,6 @@ import WorkProcess from "../medium/WorkProcess"
 import Testimonial from "../medium/Testimonial"
 import Profile from "../medium/Profile"
 import ContactSection from "../medium/ContactSection"
-import Footer from "../medium/Footer"
-
 const Home = ()=>{
     return(
         <>
@@ -24,7 +22,6 @@ const Home = ()=>{
         <WorkProcess/>
         <Testimonial/>
         <ContactSection/>
-        <Footer/>
         </>
     )
 }
