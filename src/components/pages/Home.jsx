@@ -4,8 +4,10 @@ import TextSection from "../medium/TextSection"
 import Service from "../medium/Service"
 import Work from "../medium/Work"
 import AboutText from "../medium/AboutText"
-import Introduction from "../medium/Profile"
 import Consider from "../medium/Consider"
+import WorkProcess from "../medium/WorkProcess"
+import Testimonial from "../medium/Testimonial"
+import Profile from "../medium/Profile"
 
 const Home = ()=>{
     return(
@@ -15,8 +17,10 @@ const Home = ()=>{
         <Service/>
         <Work/>
         <AboutText/>
-        <Introduction/>
+        <Profile/>
         <Consider/>
+        <WorkProcess/>
+        <Testimonial/>
         </>
     )
 }
