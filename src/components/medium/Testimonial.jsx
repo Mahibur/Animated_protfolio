@@ -1,5 +1,9 @@
 import React from "react"
 import Container from "../min/Container"
+import ClientReview from "../min/ClientReview"
+import client_1 from "../../assets/images/client_1.png"
+import client_2 from "../../assets/images/client_2.png"
+import client_3 from "../../assets/images/client_3.png"
 
 const Testimonial =()=>{
     return(
@@ -14,8 +18,10 @@ const Testimonial =()=>{
                     <p className="max-w-[345px] font-segoe text-base leading-5 text-body">Throughout my career  I’ve had the privilege of working with some very talented people at a great bunch of companies.</p>
                 </div>
             </div>
-            <div className="test-review">
-                
+            <div className="test-review flex justify-between items-center">
+                <ClientReview src={client_1}/>
+                <ClientReview src={client_2}/>
+                <ClientReview src={client_3}/>
             </div>
            </Container>
         </div>
