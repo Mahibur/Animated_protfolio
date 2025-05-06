@@ -1,16 +1,14 @@
 import React from "react"
 import Container from "../min/Container"
 import ProcessBox from "../min/ProcessBox"
-import light from "../../assets/images/light.png"
 const WorkProcess =()=>{
     return(
         <div className="workProcess mt-32 py-32">
             <Container className="flex gap-x-17">
-                <div className="processText relative">
+                <div className="processText">
                     <h4 className="font-segoe text-base leading-3.5 tracking-[1.26px] text-h1 pb-2 uppercase">/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Profile</h4>
                     <h1 className="font-segoe text-[56px] leading-[61.6px] tracking-[-1.68px] text-h1 pb-3">Work Process</h1>
                     <p className="w-[393px] font-segoe text-base leading-5 text-h1">Throughout my career  I’ve had the privilege of working with some very talented people at a great bunch of companies.</p>
-                    <img className="absolute top-[7%] left-[-1%] w-[500px]" src={light} alt="light.png" />
                 </div>
                 <div className="processBox pt-65 w-[66%]">
                     <ProcessBox className="gap-y-28.5" num="01" title="Discovery" content="Throughout my career  I’ve had the privilege of working with some very talented people at a great bunch of companies."/>

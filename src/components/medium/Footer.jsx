@@ -30,9 +30,9 @@ const Footer =()=>{
                         <div className="part2">
                         <FooterHeading className="pb-4" title="Social Media"/>
                         <div className="options2 flex flex-col gap-y-3">
-                            <SocialLink link="https://www.linkedin.com/in/mahibur-rahman-b2a089275/" title="LinkedIn"/>
-                            <SocialLink link="https://www.facebook.com/mahibur.rahman.326055" title="Facebook"/>
-                            <SocialLink link="https://x.com/mmahibur2299" title="Twitter"/>
+                            <SocialLink link="https://www.linkedin.com/in/rakibkhan-uiux/" title="LinkedIn"/>
+                            <SocialLink link="https://www.facebook.com/profile.php?id=100088808449657" title="Facebook"/>
+                            <SocialLink link="https://x.com/rakib18686324" title="Twitter"/>
                         </div>
                         </div>
                     </div>
@@ -41,6 +41,16 @@ const Footer =()=>{
                     </div>
                 </div>
                 </div>
+                <div className="copyright flex justify-between items-center pt-45">
+                    <div className="copyright-left flex gap-x-3 items-center">
+                        <h5 className="font-segeo text-lg leading-[16.5px] text-body">©2025</h5>
+                        <h5 className="font-segeo text-lg leading-[16.5px] text-body capitalize">Privacy | Policy</h5>
+                    </div>
+                    <div className="copyright-right">
+                        <h4 className="font-segeo text-lg leading-[16.5px] text-body">Designed by Rakib Khan®</h4>
+                    </div>
+                </div>
+                <h1 className="font-thunder font-bold text-[386px] bg-red-300 text-body text-box-trim tracking-[19.7px] uppercase w-full">Let’s Talk</h1>
             </Container>
         </div>
     )

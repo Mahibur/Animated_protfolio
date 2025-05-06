@@ -19,9 +19,9 @@ const Testimonial =()=>{
                 </div>
             </div>
             <div className="test-review flex justify-between items-center">
-                <ClientReview src={client_1}/>
-                <ClientReview src={client_2}/>
-                <ClientReview src={client_3}/>
+                <ClientReview src={client_1} name="Sumit Saha" title="CEO and Co-founder at ABC Comapny" review="He made selling my home simple. No showings, no repairs—just a straightforward cash offer. I couldn’t be happier with the entire experience!"/>
+                <ClientReview src={client_2} name="Sarah" title="SaaS Startup Founder" review="He made selling my home simple. No showings, no repairs—just a straightforward cash offer. I couldn’t be happier with the entire experience!"/>
+                <ClientReview src={client_3} name="Amira" title="CEO of Glamii Beauty App" review="He made selling my home simple. No showings, no repairs—just a straightforward cash offer. I couldn’t be happier with the entire experience!"/>
             </div>
            </Container>
         </div>
