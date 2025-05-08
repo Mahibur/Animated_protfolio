@@ -50,7 +50,9 @@ const Footer =()=>{
                         <h4 className="font-segeo text-lg leading-[16.5px] text-body">Designed by Rakib Khan®</h4>
                     </div>
                 </div>
-                <h1 className="font-thunder font-bold text-[386px] bg-red-300 text-body text-box-trim tracking-[19.7px] uppercase w-full">Let’s Talk</h1>
+                <div className="large-text relative py-30 overflow-y-hidden">
+                <h1 className="absolute top-0 left-0 font-thunder font-bold leading-none text-[386px] bg-linear-[35deg,#F1F1F1_11%,#AEAEAE_35%,#A1A1A1_100%] text-transparent bg-clip-text tracking-[19.7px] uppercase w-full">Let’s Talk</h1>
+                </div>
             </Container>
         </div>
     )

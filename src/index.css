@@ -6,16 +6,16 @@
 
 
 @font-face {
-  font-family: Thunder;
+  font-family: "Thunder";
   font-style: normal;
   font-weight: 400;
   src: url("assets/fonts/Thunder-BoldLC.ttf") format("truetype");
 }
 @font-face {
-  font-family: Segoe UI;
+  font-family: "Segoe UI";
   font-style: normal;
   font-weight: 400;
-  src: url("assets/fonts/Segoe\ UI.ttf") format("truetype");
+  src: url("assets/fonts/segoe-ui.ttf") format("truetype");
 }
 @theme {
   /* custom-fonts */
@@ -30,9 +30,6 @@
 
 }
 
-  .text-box-trim {
-    text-box-trim: both;
-  }
 
   
 
