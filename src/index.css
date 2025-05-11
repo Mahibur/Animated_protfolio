@@ -29,6 +29,9 @@
     --color-bg: #020202;
 
 }
+span{
+  display: inline-block;
+}
 
 
   
